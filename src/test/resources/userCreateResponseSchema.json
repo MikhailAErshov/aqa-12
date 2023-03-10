@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Response pattern",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "number"
+    },
+    "type": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}
